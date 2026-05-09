@@ -179,7 +179,7 @@ class TecnoFixApp(ctk.CTk):
                 
                 # Créditos de autores en el documento[cite: 1]
                 doc.add_paragraph("\n" + "_"*40)
-                doc.add_paragraph("Sistema desarrollado por: Jorge Eliecer Gómez Rojas, Nicol Becerra, Andres Felipe Becerra")
+                doc.add_paragraph("Sistema desarrollado por: Jorge Eliecer Gómez Rojas, Nicol Becerra, Andres Felipe Rojas")
                 doc.add_paragraph("Proyecto Académico UNAD - Ingeniería de Sistemas.")
                 
                 doc.save(ruta_archivo)
