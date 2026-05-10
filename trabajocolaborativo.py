@@ -77,7 +77,7 @@ class TecnoFixApp(ctk.CTk):
         self.frame_devs.pack(pady=(0, 15))
         
         # Jorge Gómez de primero con nombres completos
-        autores = "Jorge Eliecer Gómez | Andres Felipe Rojas | Nicol Becerra"
+        autores = "Jorge Eliecer Gómez | Andres Felipe Rojas | Nicol Jaidery Becerra"
         self.lbl_devs = ctk.CTkLabel(self.frame_devs, text=f"Desarrollado por: {autores}", 
                                      font=("Arial", 12, "italic"), text_color="#A9A9A9")
         self.lbl_devs.pack()
